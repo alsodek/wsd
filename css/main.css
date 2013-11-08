@@ -154,7 +154,33 @@ aside{
 	text-align: justify;
 }
 
+#table, #form{
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 15px;
+}
+
+#extra{
+	width: 900px;
+	height: 500px;
+	background: #505457;
+	border-radius: 10px;
+	border: 2px solid #d93240;
+}
+
+#table{
+	float: left;
+	padding-left: 20px;
+	color: #fff;
+}
+
+#form{
+	float: left;
+	padding-left: 75px;
+	color: #fff;
+}
+
 footer{
+	clear: left;
 	background: #282828;
 	border-radius: 10px;
 	border: 2px solid #d93240;
