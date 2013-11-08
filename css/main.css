@@ -1,11 +1,25 @@
+/*-------------------Colors---------------------*/
+
+
 /* ------------------------------------------------------ */
 
 body{
 	color: ;
-	font-family: ;
-	font-size: ;
+	font-size: 14px;
 	width: 900px;
 	margin: 0 auto;
+}
+
+p, ul, nav{
+	font-family: 'Sintony', sans-serif;
+}
+
+p{
+	text-indent: 30px;
+}
+
+h1, h2, h3{
+	font-family: 'Cinzel Decorative', cursive;
 }
 
 h3{
