@@ -23,7 +23,8 @@ h1, h2, h3{
 }
 
 h3{
-	background: #666;
+	background: #282828;
+	color: #fff;
 	overflow: hidden;
 	display: block;
 	width: 280px;
@@ -36,8 +37,9 @@ h3{
 }
 
 #welcome{
+	color: #d93240;
 	margin: 0;
-	padding: 5px 0 0 20px;
+	padding: 5px 0 0 585px;
 }
 
 /*---------------------------------Nav Elements--------------------------*/
@@ -54,22 +56,21 @@ nav ul{
 nav li{
 	width: 200px;
 	float: left;
-	background: silver;
 }
 
 nav a{
 	text-decoration: none;
-	background: #fff;
+	background: #282828;
 	display: block;
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
-	color: #d0000d;
+	color: #fff;
 }
 
 nav a:hover{
-	color: #fff;
-	background: #d0000d;
+	color: #d0000d;
+	background: #fff;
 }
 /*----------------
 nav a:visited{
@@ -78,13 +79,15 @@ nav a:visited{
 }
 */
 nav a:active{
-	color: #d0000d;
-	background: #fff;
+	color: #fff;
+	background: #d0000d;
 }
 /*---------------------------------Main Content Elements--------------------------*/
 
 div{
-	background: silver;
+	border: 3px solid #d93240;
+	border-radius: 10px;
+	background-color: #505457;
 	overflow: hidden;
 }
 
@@ -94,9 +97,12 @@ div{
 
 #p1{ 
 	float: left;
+	color: #fff;
 	width: 300px;
-	padding: 20px;
+	padding-top: 50px;
+	padding-left: 20px;
 	margin: 0;
+	text-align: justify;
 }
 
 #gallery{
@@ -115,7 +121,7 @@ div{
 }
 
 #gallery a{
-	border: 10px solid #666;
+	border: 10px solid #d93240;
 	display: block;
 	height: 150px;
 	width: 200px;
@@ -130,20 +136,28 @@ div{
 	float: left;
 }
 
-aside{
-	float; left;
-}
-
-#history{
-	-moz-column-count: 3;
+hr{
 	clear: left;
 }
 
 aside{
-	margin: 0;
-	width: 200px;
-	background: silver;
+	float:left;
+	margin-top: 0;
+	width: 315px;
 	overflow: hidden;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 90px;
+	padding-right: 10px;
+}
+
+#history{
+	-moz-column-count: 3;
+	text-align: justify;
+}
+
+footer{
+	background: #282828;
+	border-radius: 10px;
+	border: 2px solid #d93240;
+	margin-top: 20px;
+	color: #fff;
 }
