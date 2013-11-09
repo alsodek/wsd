@@ -1,25 +1,22 @@
-/*-------------------Colors---------------------*/
-
-
-/* ------------------------------------------------------ */
-
-body{
-	color: ;
-	font-size: 14px;
-	width: 900px;
-	margin: 0 auto;
-}
 
 p, ul, nav{
 	font-family: 'Sintony', sans-serif;
 }
 
-p{
-	text-indent: 30px;
-}
-
 h1, h2, h3{
 	font-family: 'Cinzel Decorative', cursive;
+}
+
+html{
+	background: #282828;
+}
+
+body{
+	width: 1000px;
+	margin: 0 auto;
+	background: #fff;
+	border: solid #d0000d;
+	border-radius: 10px;
 }
 
 h3{
@@ -27,40 +24,35 @@ h3{
 	color: #fff;
 	overflow: hidden;
 	display: block;
-	width: 280px;
+	width: 393px;
 	float: left;
 	height: 30px;
 	line-height: 30px;
-	padding: 0;
-	margin: 0 auto;
-	padding-left: 20px;
-}
-
-#welcome{
-	color: #d93240;
 	margin: 0;
-	padding: 5px 0 0 585px;
+	padding-left: 20px;
+	outline: 0;
 }
 
-/*---------------------------------Nav Elements--------------------------*/
+h3 a:visited{
+	color: #fff;
+}
 
 nav ul{
-	width: 600px;
+	width: 561px;
 	margin: 0 auto;
-	background: #666;
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
 }
 
 nav li{
-	width: 200px;
+	background: #282828;
+	width: 187px;
 	float: left;
 }
 
 nav a{
 	text-decoration: none;
-	background: #282828;
 	display: block;
 	height: 30px;
 	line-height: 30px;
@@ -72,41 +64,49 @@ nav a:hover{
 	color: #d0000d;
 	background: #fff;
 }
-/*----------------
-nav a:visited{
-	color: #666;
-	background: #fff;
-}
-*/
+
 nav a:active{
 	color: #fff;
 	background: #d0000d;
 }
-/*---------------------------------Main Content Elements--------------------------*/
 
 div{
-	border: 3px solid #d93240;
+	margin: 10px;
+	background: #505457;
+	color: #fff;
+	border: solid #d0000d;
 	border-radius: 10px;
-	background-color: #505457;
 	overflow: hidden;
 }
 
-.rb_front{
+div h2{
 	float: left;
+	padding-left: 30px;
+	text-shadow: 2px 2px 2px #010101;
 }
 
-#p1{ 
+div img{
+	margin: 20px 0px 20px 20px;
 	float: left;
-	color: #fff;
-	width: 300px;
-	padding-top: 50px;
-	padding-left: 20px;
-	margin: 0;
+	border: 10px solid #d0000d;
+
+}
+
+div p{
+	float: left;
+	width: 340px;
+	padding: 30px 0px 0px 20px;
+	text-indent: 50px;
 	text-align: justify;
+	margin: 0;
 }
 
 #gallery{
 	clear: left;
+}
+
+#gallery h2{
+	padding-left: 190px;
 }
 
 #gallery ul{
@@ -116,12 +116,11 @@ div{
 }
 
 #gallery li{
-	margin-left: 20px;
-	margin-bottom: 15px;
+	margin: 0px 0px 15px 20px;
 }
 
 #gallery a{
-	border: 10px solid #d93240;
+	border: 10px solid #d0000d;
 	display: block;
 	height: 150px;
 	width: 200px;
@@ -136,46 +135,57 @@ div{
 	float: left;
 }
 
+aside{
+	float:left;
+	margin-top: 0;
+	width: 515px;
+	overflow: hidden;
+}
+
+aside h2{
+	padding-left: 125px
+}
+
+aside li{
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 hr{
 	clear: left;
 }
 
-aside{
-	float:left;
-	margin-top: 0;
-	width: 315px;
-	overflow: hidden;
-	padding-left: 90px;
-	padding-right: 10px;
+#history h2{
+	padding-left: 350px;
 }
 
-#history{
+#history p{
+	text-indent: 50px;
 	-moz-column-count: 3;
 	text-align: justify;
-}
-
-#table, #form{
-	font-family: 'Cinzel Decorative', cursive;
-	font-size: 15px;
+	padding: 0px 20px;
 }
 
 #extra{
-	width: 900px;
+	width: 980px;
 	height: 500px;
+	margin: 10px;
 	background: #505457;
 	border-radius: 10px;
-	border: 2px solid #d93240;
+	border-top: solid #d0000d;
+	border-bottom: solid #d0000d;
 }
 
 #table{
 	float: left;
-	padding-left: 20px;
+	padding-left: 50px;
 	color: #fff;
 }
 
 #form{
 	float: left;
-	padding-left: 75px;
+	padding-left: 575px;
 	color: #fff;
 }
 
@@ -183,7 +193,8 @@ footer{
 	clear: left;
 	background: #282828;
 	border-radius: 10px;
-	border: 2px solid #d93240;
-	margin-top: 20px;
+	border: 2px solid #d0000d;
+	margin: 10px;
 	color: #fff;
+	padding-left: 20px;
 }
