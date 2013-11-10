@@ -19,26 +19,34 @@ body{
 	border-radius: 10px;
 }
 
-h3{
+header img{
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	display: block;
+	float: left;
+}
+
+h1{
 	background: #282828;
 	color: #fff;
 	overflow: hidden;
 	display: block;
-	width: 393px;
+	width: 500px;
 	float: left;
-	height: 30px;
+	height: 65px;
 	line-height: 30px;
 	margin: 0;
-	padding-left: 20px;
+	padding: 35px 0px 0px 20px;
 	outline: 0;
 }
 
-h3 a:visited{
+h1 a:visited{
 	color: #fff;
 }
 
 nav ul{
-	width: 561px;
+	width: 354px;
 	margin: 0 auto;
 	list-style-type: none;
 	padding: 0;
@@ -47,15 +55,15 @@ nav ul{
 
 nav li{
 	background: #282828;
-	width: 187px;
+	width: 118px;
 	float: left;
 }
 
 nav a{
 	text-decoration: none;
 	display: block;
-	height: 30px;
-	line-height: 30px;
+	height: 100px;
+	line-height: 100px;
 	text-align: center;
 	color: #fff;
 }
@@ -85,7 +93,7 @@ div h2{
 	text-shadow: 2px 2px 2px #010101;
 }
 
-div img{
+div article{
 	margin: 20px 0px 20px 20px;
 	float: left;
 	border: 10px solid #d0000d;
