@@ -18,6 +18,7 @@ body{
 	background: #fff;
 	border: solid #d0000d;
 	border-radius: 10px;
+	font: 100%;
 }
 
 /*---------------------------------------------header content------------------------------------------------------------*/
@@ -42,6 +43,7 @@ h1{
 	margin: 0;
 	padding: 35px 0px 0px 20px;
 	outline: 0;
+	font-size: 2em;
 }
 
 h1 a:visited{
@@ -62,6 +64,7 @@ nav li{
 	background: #282828;
 	width: 118px;
 	float: left;
+	font-size: 1em;
 }
 
 nav a{
@@ -98,13 +101,13 @@ div h2{
 	float: left;
 	padding-left: 30px;
 	text-shadow: 2px 2px 2px #010101;
+	font-size: 1.5em;
 }
 
 div article{
 	margin: 20px 0px 20px 20px;
 	float: left;
 	border: 10px solid #d0000d;
-
 }
 
 div p{
@@ -114,6 +117,7 @@ div p{
 	text-indent: 50px;
 	text-align: justify;
 	margin: 0;
+	font-size: 1em;
 }
 
 .button {
@@ -170,6 +174,7 @@ div p{
 
 #gallery h2{
 	padding-left: 190px;
+	font-size: 1.5em;
 }
 
 #gallery ul{
@@ -202,19 +207,26 @@ div p{
 
 aside{
 	float:left;
-	margin-top: 0;
-	width: 515px;
+	margin-top: -20px;
+	width: 490px;
+	height: 350px;
 	overflow: hidden;
+	background: #505457;
+	border: solid #d0000d;
+	border-radius: 10px;
+	color: #fff;
+	margin-left: 10px;
 }
 
 aside h2{
-	padding-left: 125px
+	margin-left: 110px;
+	font-size: 1.5em;
+	text-shadow: 2px 2px 2px #010101;
 }
 
 aside li{
-	padding-top: 30px;
-	padding-left: 20px;
-	padding-right: 20px;
+	font-size: 1em;
+	padding: 30px 20px 0px 20px;
 }
 
 hr{
@@ -225,6 +237,7 @@ hr{
 
 #history h2{
 	padding-left: 350px;
+	font-size: 1.5em;
 }
 
 #history p{
@@ -232,6 +245,7 @@ hr{
 	-moz-column-count: 3;
 	text-align: justify;
 	padding: 0px 20px;
+	font-size: 1em;
 }
 
 /*---------------------------------------------form content------------------------------------------------------------*/
@@ -250,12 +264,14 @@ hr{
 	float: left;
 	padding-left: 50px;
 	color: #fff;
+	font-size: 1.5em;
 }
 
 #form{
 	float: left;
 	padding-left: 575px;
 	color: #fff;
+	font-size: 1.5em;
 }
 
 /*---------------------------------------------footer content------------------------------------------------------------*/
@@ -268,4 +284,5 @@ footer{
 	margin: 10px;
 	color: #fff;
 	padding-left: 20px;
+	font-size: 1em;
 }
