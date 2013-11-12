@@ -14,7 +14,7 @@ html{
 
 body{
 	width: 1000px;
-	margin: 0 auto;
+	margin: 0% auto;
 	background: #fff;
 	border: solid #d0000d;
 	border-radius: 10px;
@@ -36,12 +36,12 @@ h1{
 	color: #fff;
 	overflow: hidden;
 	display: block;
-	width: 500px;
+	width: 51.282051%; /* 500px/975px*/
 	float: left;
 	height: 65px;
 	line-height: 30px;
-	margin: 0;
-	padding: 35px 0px 0px 20px;
+	margin: 0%;
+	padding: 3.6% 0% 0% 2.5%; /* 35px/500px, 20px/500px */
 	outline: 0;
 	font-size: 2em;
 }
@@ -53,16 +53,16 @@ h1 a:visited{
 /*---------------------------------------------nav content------------------------------------------------------------*/
 
 nav ul{
-	width: 354px;
-	margin: 0 auto;
+	width: 36.307692%; /* 354px/975px */
+	margin: 0% auto;
 	list-style-type: none;
-	padding: 0;
+	padding: 0%;
 	overflow: hidden;
 }
 
 nav li{
 	background: #282828;
-	width: 118px;
+	width: 33.3333333%; /* 118px/354px */
 	float: left;
 	font-size: 1em;
 }
@@ -89,34 +89,37 @@ nav a:active{
 /*---------------------------------------------main content------------------------------------------------------------*/
 
 div{
-	margin: 10px;
+	margin: 1%; /* 10px/1000px */
 	background: #505457;
 	color: #fff;
 	border: solid #d0000d;
 	border-radius: 10px;
 	overflow: hidden;
+	width: 97.5%; /* 975px/1000px */
 }
 
 div h2{
 	float: left;
-	padding-left: 30px;
+	padding-left: 3.076923%; /* 30px/975px */
 	text-shadow: 2px 2px 2px #010101;
 	font-size: 1.5em;
 }
 
 div article{
-	margin: 20px 0px 20px 20px;
 	float: left;
 	border: 10px solid #d0000d;
+	width: 56.410256%; /* 550px/975px */
+	height: 450px;
+	margin: 2.051282% 0% 2.051282% 2.051282%; /* 20px/975px, */
 }
 
 div p{
 	float: left;
-	width: 340px;
-	padding: 30px 0px 0px 20px;
+	width: 34.871795%; /* 340px/975px */
+	padding: 2% 0% 0% 2.3%; 
 	text-indent: 50px;
 	text-align: justify;
-	margin: 0;
+	margin: 0%;
 	font-size: 1em;
 }
 
@@ -135,7 +138,7 @@ div p{
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
 	box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	margin: 1.3em 0em 0em 4em;
+	margin: 17em 0em 0em 2.5em;
 }
 .button:hover {
 	text-decoration: none;
@@ -173,26 +176,27 @@ div p{
 }
 
 #gallery h2{
-	padding-left: 190px;
+	padding-left: 19.487179%; /* 190px/975px */
 	font-size: 1.5em;
 }
 
 #gallery ul{
 	list-style-type: none;
-	width: 550px;
-	padding: 5px;
+	width: 56.410256%; /* 550px/975px */
+	padding-left: .181818%;  /*1px/550px */
 }
 
 #gallery li{
-	margin: 0px 0px 15px 20px;
+	margin: 0% 0% 7% 8%; 
 }
 
 #gallery a{
 	border: 10px solid #d0000d;
 	display: block;
 	height: 150px;
-	width: 200px;
+	width: 200px; 
 	outline: 0;
+	overflow: hidden;
 }
 
 #first_pics{
@@ -207,26 +211,25 @@ div p{
 
 aside{
 	float:left;
-	margin-top: -20px;
-	width: 490px;
+	width: 49.230769%; /* 480px/975px */
 	height: 350px;
 	overflow: hidden;
 	background: #505457;
 	border: solid #d0000d;
 	border-radius: 10px;
 	color: #fff;
-	margin-left: 10px;
+	margin-left: 1.025641%; /* 10px/975px */
 }
 
 aside h2{
-	margin-left: 110px;
+	margin-left: 22.916667%; /* 110px/480px */
 	font-size: 1.5em;
 	text-shadow: 2px 2px 2px #010101;
 }
 
 aside li{
 	font-size: 1em;
-	padding: 30px 20px 0px 20px;
+	padding: 6% 6.25% 0% 6.25%; /* 20px/480px */
 }
 
 hr{
@@ -236,7 +239,7 @@ hr{
 /*---------------------------------------------history content------------------------------------------------------------*/
 
 #history h2{
-	padding-left: 350px;
+	padding-left: 35.897436%; /* 350px/975px */
 	font-size: 1.5em;
 }
 
@@ -244,32 +247,32 @@ hr{
 	text-indent: 50px;
 	-moz-column-count: 3;
 	text-align: justify;
-	padding: 0px 20px;
+	padding: 0% 2.136752%; /* 20px/936px */
 	font-size: 1em;
+	width: 96%; /* 936px/975px */
 }
 
 /*---------------------------------------------form content------------------------------------------------------------*/
 
 #extra{
-	width: 980px;
+	width: 97.5%; /* 975px/1000px */
 	height: 500px;
-	margin: 10px;
+	margin: 1.025641%; /* 10px/975px */
 	background: #505457;
 	border-radius: 10px;
-	border-top: solid #d0000d;
-	border-bottom: solid #d0000d;
+	border: solid #d0000d;
 }
 
 #table{
 	float: left;
-	padding-left: 50px;
+	padding-left: 5.128205%; /* 50px/975px */
 	color: #fff;
 	font-size: 1.5em;
 }
 
 #form{
 	float: left;
-	padding-left: 575px;
+	padding-left: 58.974359%; /* 575px/975px */
 	color: #fff;
 	font-size: 1.5em;
 }
@@ -277,12 +280,13 @@ hr{
 /*---------------------------------------------footer content------------------------------------------------------------*/
 
 footer{
+	width: 95.8%; /* 934.05px/975px */
 	clear: left;
 	background: #282828;
 	border-radius: 10px;
 	border: 2px solid #d0000d;
-	margin: 10px;
+	margin: 1.070606%; /* 10px/934.05px */
 	color: #fff;
-	padding-left: 20px;
+	padding-left: 2.141213%; /* 20px/934.05px */
 	font-size: 1em;
 }
