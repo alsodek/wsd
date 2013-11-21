@@ -1,6 +1,6 @@
 /*---------------------------------------------all content------------------------------------------------------------*/
 
-p, ul, nav{
+p, ul, nav, form{
 	font-family: 'Sintony', sans-serif;
 }
 
@@ -274,11 +274,25 @@ hr{
 	font-size: 1.5em;
 }
 
-#form{
+form{
+	border: solid #fff;
+	width: 40%;
 	float: left;
-	padding-left: 58.974359%; /* 575px/975px */
+	margin: 2% 0% 0% 30%;
+	padding: 0% 2% 2% 2%;
 	color: #fff;
+	font-size: 1em;
+	background-color: #282828;
+}
+
+form h2{
+	margin: 0;
+	padding-left: 35%;
 	font-size: 1.5em;
+}
+
+form div{
+	padding-left: 1%;
 }
 
 /*---------------------------------------------footer content------------------------------------------------------------*/
