@@ -259,7 +259,7 @@ hr{
 /*---------------------------------------------form content------------------------------------------------------------*/
 
 #extra{
-	background: silver;
+	background: #282828;
 	height: 430px;
 	width: 97.5%;
 	margin: 1%;
@@ -320,7 +320,7 @@ table{
 	border: 2px solid #d0000d;
 	background-color: #505457;
 	width: 46%;
-	margin: 11.5% 0 0 1.070606%;
+	margin: 1.2% 0 0 1.070606%;
 	border-collapse: collapse;
 	border: 1px solid #d0000d;
 	font-size: 1em;
@@ -333,14 +333,15 @@ td{
 	padding: 2%;
 }
 
-th{
-	background: #282828;
+#store_hours{
+	color: #fff;
+	padding-left: 65%;
 }
 
-#heading_table{
+#days_closed{
 	color: #fff;
-	text-shadow: 2px 2px 2px #010101;
-	padding-left: 70%;
+	padding-left: 62%;
+	margin-top: 3%;
 }
 
 /*---------------------------------------------footer content------------------------------------------------------------*/
