@@ -1,6 +1,6 @@
 /*---------------------------------------------all content------------------------------------------------------------*/
 
-p, ul, nav, form{
+p, ul, nav, form, table{
 	font-family: 'Sintony', sans-serif;
 }
 
@@ -167,7 +167,7 @@ div p{
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0000d', endColorstr='#af000b');
 }
 .red:active {
-	color: #666;
+	color: #282828;
 	background: -webkit-gradient(linear, left top, left bottom, from(#d0000d), to(#cd3b45));
 	background: -moz-linear-gradient(top,  #d0000d,  #cd3b45);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0000d', endColorstr='#cd3b45');
@@ -258,55 +258,94 @@ hr{
 
 /*---------------------------------------------form content------------------------------------------------------------*/
 
-#extra{
-	width: 97.5%; /* 975px/1000px */
-	height: 500px;
-	margin: 1.025641%; /* 10px/975px */
-	background: #505457;
-	border-radius: 10px;
-	border: solid #d0000d;
-}
-
-#table{
-	float: left;
-	padding-left: 5.128205%; /* 50px/975px */
-	color: #fff;
-	font-size: 1.5em;
-}
-
 form{
-	border: solid #fff;
-	width: 40%;
+	width: 45%;
 	float: left;
-	margin: 2% 0% 0% 30%;
+	margin: 1.070606%;
 	padding: 0% 2% 2% 2%;
 	color: #fff;
 	font-size: 1em;
-	background-color: #282828;
+	background-color: #505457;
+	border: 2px solid #d0000d;
+	border-radius: 10px;
 }
 
 form h2{
 	margin: 0;
-	padding-left: 35%;
+	padding: 2% 0 0 28%;
 	font-size: 1.5em;
 }
 
 form div{
-	padding-left: 1%;
+	border: none;
+	padding: 1% 0 0 15%;
+	background: none;
+}
+
+label {
+    display: inline-block;
+    width: 130px;
+}
+
+form button{
+	width: 30%;
+	height: 40px;
+	margin: 2% 0 0 35%;
+	font-size: 1em;
+	color: #fff;
+	background: #282828;
+	border: 2px solid #d0000d;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+input:focus{
+	background: #d3f7fd;
+}
+
+#table{
+	background: silver;
+}
+
+table{
+	float: left;
+	color: #fff;
+	font-size: 1.5em;
+	border: 2px solid #d0000d;
+	border-radius: 10px;
+	background-color: #505457;
+	width: 46%;
+	margin: 12% 0 0 1.070606%;
+	border-collapse: collapse;
+	border: 1px solid #d0000d;
+	font-size: 1em;
+	text-align: center;
+}
+
+td{
+	border: 1px solid #d0000d;
+	padding: 2%;
+}
+
+th{
+	background: #282828;
 }
 
 /*---------------------------------------------footer content------------------------------------------------------------*/
 
 footer{
-	width: 95.8%; /* 934.05px/975px */
+	width: 97.7%; /* 934.05px/975px */
 	clear: left;
 	background: #282828;
 	border-radius: 10px;
 	border: 2px solid #d0000d;
-	margin: 1.070606%; /* 10px/934.05px */
+	margin: 1%; /* 10px/934.05px */
 	color: #fff;
-	padding-left: 2.141213%; /* 20px/934.05px */
 	font-size: 1em;
+}
+
+footer p{
+	padding-left: 2%;
 }
 
 /*---------------------------------------------Media Queries ------------------------------------------------------------*/
