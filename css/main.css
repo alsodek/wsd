@@ -9,7 +9,7 @@ h1, h2, h3{
 }
 
 html{
-	background: #282828;
+	background-image: url('../images/rb_background.jpg');
 }
 
 body{
@@ -258,6 +258,15 @@ hr{
 
 /*---------------------------------------------form content------------------------------------------------------------*/
 
+#extra{
+	background: silver;
+	height: 430px;
+	width: 97.5%;
+	margin: 1%;
+	border: 2px solid #d0000d;
+	border-radius: 10px;
+}
+
 form{
 	width: 45%;
 	float: left;
@@ -274,6 +283,7 @@ form h2{
 	margin: 0;
 	padding: 2% 0 0 28%;
 	font-size: 1.5em;
+	text-shadow: 2px 2px 2px #010101;
 }
 
 form div{
@@ -303,19 +313,14 @@ input:focus{
 	background: #d3f7fd;
 }
 
-#table{
-	background: silver;
-}
-
 table{
 	float: left;
 	color: #fff;
 	font-size: 1.5em;
 	border: 2px solid #d0000d;
-	border-radius: 10px;
 	background-color: #505457;
 	width: 46%;
-	margin: 12% 0 0 1.070606%;
+	margin: 11.5% 0 0 1.070606%;
 	border-collapse: collapse;
 	border: 1px solid #d0000d;
 	font-size: 1em;
@@ -324,11 +329,18 @@ table{
 
 td{
 	border: 1px solid #d0000d;
+	border-radius: 10px;
 	padding: 2%;
 }
 
 th{
 	background: #282828;
+}
+
+#heading_table{
+	color: #fff;
+	text-shadow: 2px 2px 2px #010101;
+	padding-left: 70%;
 }
 
 /*---------------------------------------------footer content------------------------------------------------------------*/
